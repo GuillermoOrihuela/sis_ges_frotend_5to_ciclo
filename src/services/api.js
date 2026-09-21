@@ -5,7 +5,7 @@
 // (raíz del proyecto) para las inconsistencias/vulnerabilidades detectadas
 // durante esta integración y que deben coordinarse con el equipo backend.
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || "https://julio32.pythonanywhere.com/api/v1";
+const API_BASE_URL = import.meta.env.VITE_API_URL || "https://julio32.pythonanywhere.com/api/v1/";
 
 const ACCESS_KEY = "nbl_access_token";
 const REFRESH_KEY = "nbl_refresh_token";
