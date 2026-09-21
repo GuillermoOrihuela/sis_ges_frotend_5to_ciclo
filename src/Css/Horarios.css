@@ -1,0 +1,72 @@
+@import "./colors.css";
+
+.horarios-page {
+  width: 100%;
+}
+
+.horarios-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 25px;
+}
+
+.horarios-header span {
+  color: var(--color-accent);
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.horarios-header h2 {
+  margin: 5px 0;
+  color: var(--color-text-light);
+  font-family: "Playfair Display", serif;
+  font-size: 34px;
+}
+
+.horarios-header p {
+  color: var(--color-text-secondary);
+  font-size: 13px;
+}
+
+.horarios-header button {
+  border: none;
+  padding: 12px 20px;
+  border-radius: 25px;
+  background: var(--color-accent-light);
+  color: white;
+  cursor: pointer;
+}
+
+.horarios-card {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border-lighter);
+  border-radius: 15px;
+  padding: 25px;
+}
+
+.horarios-table-wrapper {
+  overflow-x: auto;
+}
+
+.horarios-card table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 850px;
+}
+
+.horarios-card th {
+  padding: 13px;
+  background: var(--color-bg-special);
+  color: var(--color-text-muted);
+  text-align: left;
+  font-size: 10px;
+}
+
+.horarios-card td {
+  padding: 16px 13px;
+  border-top: 1px solid var(--color-border-light);
+  color: var(--color-text-secondary);
+  font-size: 11px;
+}

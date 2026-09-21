@@ -1,0 +1,28 @@
+@import "./colors.css";
+
+.admin-layout {
+  min-height: 100vh;
+  display: flex;
+  background: var(--color-bg-primary);
+}
+
+.admin-main {
+  flex: 1;
+  min-width: 0;
+  margin-left: 260px;
+}
+
+.admin-content {
+  min-height: calc(100vh - 72px);
+  padding: 30px;
+}
+
+@media (max-width: 900px) {
+  .admin-main {
+    margin-left: 0;
+  }
+
+  .admin-content {
+    padding: 24px 18px;
+  }
+}

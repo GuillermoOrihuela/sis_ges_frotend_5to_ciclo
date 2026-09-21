@@ -1,0 +1,85 @@
+@import "./colors.css";
+
+.pagos-page {
+  width: 100%;
+}
+
+.pagos-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 25px;
+}
+
+.pagos-header span {
+  color: var(--color-accent);
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.pagos-header h2 {
+  margin: 5px 0;
+  color: var(--color-text-light);
+  font-family: "Playfair Display", serif;
+  font-size: 34px;
+}
+
+.pagos-header p {
+  color: var(--color-text-secondary);
+  font-size: 13px;
+}
+
+.pagos-header button {
+  border: none;
+  padding: 12px 20px;
+  border-radius: 25px;
+  background: var(--color-accent-light);
+  color: white;
+}
+
+.pagos-card {
+  padding: 25px;
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border-lighter);
+  border-radius: 15px;
+}
+
+.pagos-table-wrapper {
+  overflow-x: auto;
+}
+
+.pagos-card table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.pagos-card th {
+  padding: 12px;
+  background: var(--color-bg-special);
+  color: var(--color-text-muted);
+  text-align: left;
+  font-size: 10px;
+}
+
+.pagos-card td {
+  padding: 15px 12px;
+  border-top: 1px solid var(--color-border-light);
+  color: var(--color-text-secondary);
+  font-size: 11px;
+}
+
+.payment-method {
+  padding: 5px 9px;
+  border-radius: 15px;
+  background: rgba(184, 109, 120, 0.1);
+  color: var(--color-error);
+  font-size: 9px;
+}
+
+.pagos-card td button {
+  border: none;
+  background: transparent;
+  color: var(--color-accent);
+  font-size: 10px;
+}

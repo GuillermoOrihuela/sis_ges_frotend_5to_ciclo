@@ -1,0 +1,51 @@
+.pending-module {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.pending-module-header span {
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  color: #a8899a;
+  font-weight: 600;
+}
+
+.pending-module-header h2 {
+  margin: 6px 0;
+}
+
+.pending-module-card {
+  background: #fff;
+  border: 1px dashed #e4d6dc;
+  border-radius: 14px;
+  padding: 40px;
+  text-align: center;
+  max-width: 560px;
+}
+
+.pending-module-icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #c9698a;
+}
+
+.pending-module-card h3 {
+  margin: 0 0 8px;
+}
+
+.pending-module-card p {
+  color: #6b5860;
+  line-height: 1.5;
+}
+
+.pending-module-models {
+  margin-top: 14px;
+  font-size: 0.82rem;
+}
+
+.pending-module-models code {
+  background: #f4e9ed;
+  padding: 2px 6px;
+  border-radius: 6px;
+}
